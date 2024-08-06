@@ -1,0 +1,47 @@
+#Navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    font-weight: bolder;
+    font-size: 50px;
+
+    width: 120px;
+}
+
+#inputbox{
+  
+    width: 500px;
+    /* margin-left: 50px; */
+}
+#Input{
+    height: 30px;
+    width: 480px;
+    margin-top: 10px;
+}
+#Buttons{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 400px;
+}
+#Buttons>div{
+   
+    margin-top: 20px;
+    font-weight: bolder
+}
+
+#Navbar-Bottom{
+    display: flex;
+    justify-content: space-around;
+}
+#Navbar-Bottom>button{
+    border: none;
+    background-color: white;
+    font-weight: bolder;
+}
+#Navbar-Bottom>button:hover{
+    color: blue;
+    border-bottom: 3px solid black;
+}
