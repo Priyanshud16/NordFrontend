@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div>
     <div id='Navbar'>
-      <Link to="/"><div id='logo'>Rack</div></Link>
+      <Link to="/"><div id='logo'>Wayfair</div></Link>
     
     <div id='inputbox'><input type="text" id='Input' placeholder='Search For Products or Brands'/></div>
 
